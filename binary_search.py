@@ -9,7 +9,7 @@ def binary_search(numbers_list, number_to_find):
             return mid_index
         if number_to_find < numbers_list[mid_index]:
             #print("left")
-            right_index=mid_index-1
+            right_index=mid_index-2
         else:
             #print("right")
             left_index = mid_index+1
