@@ -1,4 +1,4 @@
-class HashTable:
+class HashTable1:
     def __init__(self):
         self.MAX=10
         self.arr = [[] for i in range(self.MAX)]
